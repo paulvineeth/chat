@@ -4,7 +4,8 @@
   "description": "chat app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/paulvineeth/Chat-Application/issues"
   },
-  "homepage": "https://github.com/paulvineeth/Chat-Application#readme"
+  "homepage": "https://github.com/paulvineeth/Chat-Application#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^2.3.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
